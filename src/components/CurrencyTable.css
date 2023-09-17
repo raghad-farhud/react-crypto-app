@@ -1,0 +1,63 @@
+::-webkit-scrollbar {
+    width: 12px;
+    height: 5px;
+}
+::-webkit-scrollbar-track {
+    background-color: transparent;
+    border: 1px solid #0000001f;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: darkcyan;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #88cfdf;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    margin: 20px auto;
+}
+table.currency-container {
+    background: #0000001f;
+    box-shadow: 0px 0px 86px -38px #cf44ff2b, inset 0 0 33px -18px #0000007d;
+    backdrop-filter: blur( 73px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    padding: 30px 13px;
+    width: 100%;
+    align-content: space-between;
+    text-align: center;
+    color: #88cfdf;
+    border-collapse: collapse;
+}
+table thead {
+    color: #db73ff;
+}
+table thead tr th {
+    border: 1px solid;
+    border-color: transparent transparent darkcyan;
+    padding: 20px;
+}
+table tbody tr {
+    transition: all 0.3s ease-in-out;
+}
+table tbody tr:hover {
+    background: #0000001f;
+    box-shadow: 0px 0px 86px -38px #cf44ff2b, inset 0 0 33px -18px #0000007d;
+}
+table tbody tr td {
+    border: 1px solid;
+    border-color: transparent transparent #762094;
+    padding: 20px;
+    white-space: nowrap;
+}
+table tbody tr td img {
+    width: 30px;
+}
+table tbody tr td a {
+    color: #88cfdf;
+    /* text-decoration: none; */
+}
